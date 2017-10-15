@@ -1,0 +1,28 @@
+{
+  "name": "qui-zapp",
+  "version": "1.0.0",
+  "description": "Quiz application in react ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zohaib10/Qui-Zapp.git"
+  },
+  "author": "Zohaib Ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zohaib10/Qui-Zapp/issues"
+  },
+  "homepage": "https://github.com/zohaib10/Qui-Zapp#readme",
+  "devDependencies": {
+    "babel-core": "5.8.*",
+    "babel-loader": "5.3.*",
+    "webpack": "1.12.*"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}
