@@ -2,8 +2,21 @@ import React, {Component} from 'react';
 
 class Question extends Component{
 
-	onChange(){
-		return;
+	onChange(e){
+		//event delegation
+		e.preventDefault();	
+		//pulling out the stuff we need 
+		const { setCurrent, setScore, question } = this.props;
+		//get the question number 
+		const selected = e.target.value;
+
+		//check to see if the user answered the question correctly
+		if(selected == question.correct){
+			setScore(this.props.score+1);
+		}
+		//update current question to diaplay next one
+		setCurrent(this.props.current + 1);
+
 	}
 
 	render(){
